@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T18:56:54.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="B1UVD71pJVM-sdfXphE6" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T19:14:27.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="w61lEZA6RzwgBDZdpZRU" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1274" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1486" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-64" value="" style="html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="560" y="770" width="560" height="240" as="geometry" />
+          <mxGeometry x="550" y="770" width="560" height="240" as="geometry" />
         </mxCell>
         <mxCell id="h2A2uQgYVynlv65NIO_a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MM423AzXzcdZw4PxK4nU-0" target="h2A2uQgYVynlv65NIO_a-6">
           <mxGeometry relative="1" as="geometry" />
@@ -29,58 +29,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-12" value="all moves posseble" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="700" y="350" width="280" height="120" as="geometry" />
+          <mxGeometry x="610" y="355" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-13" value="+ findAllMoves(cord)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-12" vertex="1">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
+          <mxGeometry y="26" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="MM423AzXzcdZw4PxK4nU-12" vertex="1">
-          <mxGeometry y="52" width="280" height="8" as="geometry" />
+          <mxGeometry y="52" width="440" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="MM423AzXzcdZw4PxK4nU-15" value="- findChecks()&lt;br&gt;&lt;div&gt;- moveinDirectioTillPice(cord, direction, color)&lt;/div&gt;&lt;div&gt;- checkDirection()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-12" vertex="1">
-          <mxGeometry y="60" width="280" height="60" as="geometry" />
+        <mxCell id="MM423AzXzcdZw4PxK4nU-15" value="- movesInDirection(cord, direction, color): bool[64] // if null {max value} if 2 2 {0}&lt;br&gt;&lt;div&gt;- checkDirection(kingCord): direction // if no check _ _ if two checks 2 2&lt;/div&gt;&lt;div&gt;- allMovesToBlockCheck(kingCord, direction): bool[64]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-12" vertex="1">
+          <mxGeometry y="60" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eLbhtVm2mVwEiILoiWQw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MM423AzXzcdZw4PxK4nU-27" target="MM423AzXzcdZw4PxK4nU-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-27" value="&lt;b&gt;Pure&lt;/b&gt; &lt;b&gt;Virtual&lt;/b&gt;&lt;br&gt;Pice" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=52;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="690" y="585" width="300" height="120" as="geometry" />
+          <mxGeometry x="660" y="585" width="340" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="MM423AzXzcdZw4PxK4nU-29" value="&lt;div&gt;+ getMoves(cord) = 0&lt;/div&gt;&lt;div&gt;+ pin(): direction // if pice isn&#39;t pinned return {&#39;_&#39;,&#39;_&#39;}  &lt;br&gt;&lt;/div&gt;&lt;div&gt;+ static findDirectionToTheKing(board, cord): direction&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-27" vertex="1">
-          <mxGeometry y="52" width="300" height="68" as="geometry" />
+        <mxCell id="MM423AzXzcdZw4PxK4nU-29" value="&lt;div&gt;+ AllMoves(cord) = 0: bool[64]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ static  pin(cord): direction // if pice isn&#39;t pinned return {&#39;_&#39;,&#39;_&#39;}&lt;/div&gt;&lt;div&gt;+ static allMovesPosseblePin(cord, direction):&amp;nbsp; bool[64]&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ static findDirectionToTheKing(board, cord): direction&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-27" vertex="1">
+          <mxGeometry y="52" width="340" height="88" as="geometry" />
         </mxCell>
         <mxCell id="MM423AzXzcdZw4PxK4nU-40" value="Knigth" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="900" width="150" height="60" as="geometry" />
+          <mxGeometry x="590" y="860" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-0" value="+ override getMoves(cord)" style="rounded=0;whiteSpace=wrap;html=1;" parent="MM423AzXzcdZw4PxK4nU-40" vertex="1">
           <mxGeometry y="22" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-1" value="&lt;div&gt;Rook&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="765" y="900" width="150" height="60" as="geometry" />
+          <mxGeometry x="755" y="860" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-2" value="+ override getMoves(cord)" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-1" vertex="1">
           <mxGeometry y="22" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-3" value="king" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="925" y="900" width="150" height="80" as="geometry" />
+          <mxGeometry x="915" y="860" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rB8UQYJskDsL8uyt2o0q-4" value="&lt;div&gt;+ override getMoves(cord)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ isInCheck(cord)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-3" vertex="1">
-          <mxGeometry y="22" width="150" height="58" as="geometry" />
+        <mxCell id="rB8UQYJskDsL8uyt2o0q-4" value="&lt;div&gt;+ override getMoves(cord)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-3" vertex="1">
+          <mxGeometry y="22" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-5" value="Queen" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="925" y="790" width="150" height="60" as="geometry" />
+          <mxGeometry x="915" y="790" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-6" value="+ override getMoves(cord)" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-5" vertex="1">
           <mxGeometry y="22" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-7" value="Bishop" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="765" y="790" width="150" height="60" as="geometry" />
+          <mxGeometry x="755" y="790" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-8" value="+ override getMoves(cord)" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-7" vertex="1">
           <mxGeometry y="22" width="150" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-9" value="Pawn" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="790" width="150" height="60" as="geometry" />
+          <mxGeometry x="590" y="790" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-10" value="+ override getMoves(cord)" style="rounded=0;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-9" vertex="1">
           <mxGeometry y="22" width="150" height="38" as="geometry" />
