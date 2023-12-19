@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T14:44:31.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="QHaFVPAXpHemRkJp7BZe" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T14:44:43.432Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="jaL0iL2GQczmXRxgNWi3" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2218" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1274" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -97,7 +97,7 @@
         <mxCell id="rB8UQYJskDsL8uyt2o0q-29" value="cord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-360" y="170" width="170" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="rB8UQYJskDsL8uyt2o0q-30" value="s" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-29" vertex="1">
+        <mxCell id="rB8UQYJskDsL8uyt2o0q-30" value="&lt;div&gt;+ Cord()&lt;/div&gt;&lt;div&gt;+ Cord(byte x, byte y)&lt;/div&gt;&lt;div&gt;+ Cord(const &amp;amp;cord)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ isInBoard(self)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ isNull&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ cordFromStr(string)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getStart(): cord&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getEnd(): cord&lt;br&gt;+ override ==(self, cord)&lt;/div&gt;+ override +(self, cord)&lt;/div&gt;&lt;div&gt;+ override -(self, cord)&lt;/div&gt;&lt;div&gt;+ addDirection(self, direction)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-29" vertex="1">
           <mxGeometry y="26" width="170" height="214" as="geometry" />
         </mxCell>
         <mxCell id="rB8UQYJskDsL8uyt2o0q-23" value="&lt;div&gt;- x: byte {0-7}&lt;br&gt;&lt;/div&gt;&lt;div&gt;- y: byte {0-7}&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="rB8UQYJskDsL8uyt2o0q-29" vertex="1">
